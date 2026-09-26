@@ -145,17 +145,17 @@ Aura-Expansion/
 ├── README.md            # Project documentation
 └── LICENSE              # MIT License
 ```
-## 🙏 Run
+## 👟 Run
 To directly run the final app/product/project we have made 
 ➡️"main\Windows\My project (3).exe"
 
 ## 🔮 Roadmap
 
-- 💠 More realistic, customizable avatars with improved animations & expressions
-- 💠 AI-powered virtual tutors for guided learning
-- 💠 Multiple virtual classroom / meeting environment themes
-- 💠 Native mobile support
-- 💠 Full VR headset support
+💠 More realistic, customizable avatars with improved animations & expressions
+💠 AI-powered virtual tutors for guided learning
+💠 Multiple virtual classroom / meeting environment themes
+💠 Native mobile support
+💠 Full VR headset support
 
 ## 🌱 Benefits
 

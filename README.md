@@ -134,20 +134,28 @@ PLAYFAB_TITLE_ID=your_playfab_title_id_here
 
 ```
 Aura-Expansion/
-├── Assets/              # Scenes, scripts, prefabs, and game content
-├── Packages/            # Unity package manifest & dependencies
-├── ProjectSettings/     # Unity project configuration
-├── Windows/             # Windows build-related content
-└── README.md
+├── Assets/              # Scenes, scripts, prefabs, models, materials, audio, etc.
+├── Library/             # Unity-generated editor/import cache
+├── Packages/            # Unity package manifest and dependency lock file
+├── ProjectSettings/     # Unity project and editor configuration
+├── Windows/             # Windows-related build/project files
+├── *.csproj             # Generated C# project files
+├── *.sln                # Visual Studio solution
+├── .gitignore           # Git ignore rules
+├── README.md            # Project documentation
+└── LICENSE              # MIT License
 ```
+## 🙏 Run
+To directly run the final app/product/project we have made 
+➡️"main\Windows\My project (3).exe"
 
 ## 🔮 Roadmap
 
-- [ ] More realistic, customizable avatars with improved animations & expressions
-- [ ] AI-powered virtual tutors for guided learning
-- [ ] Multiple virtual classroom / meeting environment themes
-- [ ] Native mobile support
-- [ ] Full VR headset support
+- 💠 More realistic, customizable avatars with improved animations & expressions
+- 💠 AI-powered virtual tutors for guided learning
+- 💠 Multiple virtual classroom / meeting environment themes
+- 💠 Native mobile support
+- 💠 Full VR headset support
 
 ## 🌱 Benefits
 

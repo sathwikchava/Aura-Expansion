@@ -1,235 +1,242 @@
 # Aura Expansion
 
-> An immersive 3D virtual meeting and learning platform built with
-> Unity, real-time multiplayer networking, AI-powered assistance, and
-> interactive collaboration tools.
+```{=html}
+<p align="center">
+```
+`<strong>`{=html}Aura Expansion`</strong>`{=html}`<br>`{=html}
+`<em>`{=html}An immersive 3D virtual meeting and learning environment
+built with Unity.`</em>`{=html}
+```{=html}
+</p>
+```
+```{=html}
+<p align="center">
+```
+`<a href="#features">`{=html}Features`</a>`{=html} •
+`<a href="#technology-stack">`{=html}Technology`</a>`{=html} •
+`<a href="#getting-started">`{=html}Getting Started`</a>`{=html} •
+`<a href="#architecture">`{=html}Architecture`</a>`{=html} •
+`<a href="#team">`{=html}Team`</a>`{=html} •
+`<a href="#license">`{=html}License`</a>`{=html}
+```{=html}
+</p>
+```
+```{=html}
+<p align="center">
+```
+`<img src="https://img.shields.io/badge/Unity-3D-black?logo=unity" alt="Unity">`{=html}
+`<img src="https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white" alt="C#">`{=html}
+`<img src="https://img.shields.io/badge/Photon-PUN-6A1B9A" alt="Photon PUN">`{=html}
+`<img src="https://img.shields.io/badge/Google-Gemini%20API-4285F4?logo=google" alt="Gemini API">`{=html}
+`<img src="https://img.shields.io/badge/PlayFab-107C10" alt="PlayFab">`{=html}
+`<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">`{=html}
+```{=html}
+</p>
+```
 
-[![Unity](https://img.shields.io/badge/Engine-Unity%203D-black?logo=unity)](https://unity.com/)
-[![C%23](https://img.shields.io/badge/Language-C%23-239120?logo=csharp&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/csharp/)
-[![Photon
-PUN](https://img.shields.io/badge/Multiplayer-Photon%20PUN-6A1B9A)](https://www.photonengine.com/pun)
-[![Gemini](https://img.shields.io/badge/AI-Gemini%20API-4285F4?logo=google)](https://ai.google.dev/)
-[![PlayFab](https://img.shields.io/badge/Backend-PlayFab-107C10)](https://playfab.com/)
+------------------------------------------------------------------------
 
-Aura Expansion explores a more interactive approach to online meetings
-and collaborative learning. Instead of keeping participants inside a
-conventional 2D video-call layout, the project places them together in a
-shared 3D environment where they can communicate and interact through
-avatars.
+## Overview
 
-The platform combines **3D avatars, real-time multiplayer interaction, a
-virtual whiteboard, and an AI chatbot** into one Unity-based experience.
-It is designed to make remote collaboration feel more like being
-together in the same space while remaining accessible through a regular
-screen.
+**Aura Expansion** is a Unity-based 3D virtual meeting and learning
+platform designed to make remote interaction more natural, interactive,
+and engaging.
+
+Instead of limiting participants to a conventional 2D video-call
+interface, the project places users inside a shared virtual environment
+where they can interact through 3D avatars, collaborate using a virtual
+whiteboard, and access an AI-powered chatbot.
+
+The platform is designed around a simple idea:
+
+> **Make remote collaboration feel more like being together in the same
+> space.**
+
+The project supports interaction through a regular screen, keeping the
+experience accessible without requiring dedicated VR hardware.
+
+------------------------------------------------------------------------
+
+## Why This Project?
+
+Traditional online meetings and remote learning environments can feel
+distant. Participants often lose the spatial presence and natural
+interaction of a physical room.
+
+Aura Expansion addresses this by combining:
+
+-   A shared 3D environment
+-   Real-time avatar interaction
+-   Collaborative learning tools
+-   AI-assisted interaction
+-   Multiplayer networking
+-   Cloud/backend integration
+
+The goal is to provide a flexible foundation for **virtual classrooms,
+remote meetings, workshops, and collaborative learning environments**.
+
+------------------------------------------------------------------------
+
+## Features
+
+### 3D Avatars
+
+Users are represented by 3D avatars inside the virtual environment,
+creating a stronger sense of presence and interaction.
+
+### Real-Time Interaction
+
+The multiplayer layer enables users to share the same virtual
+environment and interact with other participants in real time.
+
+### Virtual Whiteboard
+
+A shared whiteboard provides a space for explanations, teaching,
+presentations, and collaborative discussion.
+
+### AI Chatbot
+
+The platform integrates the **Google Gemini API** to provide an
+AI-powered conversational assistant inside the environment.
+
+### Screen-Based Accessibility
+
+The project is designed to work through a conventional desktop screen,
+allowing users to experience the environment without requiring a VR
+headset.
+
+### Cloud Integration
+
+The project includes **PlayFab/Azure integration** as part of its
+backend and cloud-service architecture.
 
 ------------------------------------------------------------------------
 
 ## Demo
 
-**Project demo:** Add your hosted demo video link here.
+### Project Walkthrough
 
-> Recommended: upload the demo to YouTube or another video host and
-> replace the link above with the public URL.
+> **Demo video:** Add the public demo URL here.
 
-------------------------------------------------------------------------
+For the best repository presentation, upload the walkthrough to YouTube
+or another stable video host and replace the placeholder above.
 
-## Why Aura Expansion?
+You can also add a thumbnail here:
 
-Traditional online meetings can make interaction feel distant and reduce
-the sense of presence between participants. Aura Expansion approaches
-the problem by creating a shared virtual space where users are
-represented by avatars and can interact inside the environment.
-
-The project is designed around four core ideas:
-
--   **Presence** --- participants share a 3D environment instead of
-    appearing only as video tiles.
--   **Interaction** --- users can communicate and collaborate inside the
-    same virtual space.
--   **Learning tools** --- interactive elements such as a virtual
-    whiteboard support teaching and collaboration.
--   **AI assistance** --- an integrated chatbot provides an additional
-    conversational interface.
+``` markdown
+[![Aura Expansion Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+```
 
 ------------------------------------------------------------------------
 
-## Core Features
+## Screenshots
 
-### 3D Avatars
+Add project screenshots to a directory such as `docs/images/` and place
+them here.
 
-Users are represented by 3D avatars inside the virtual environment,
-giving meetings a stronger sense of presence than a conventional 2D
-interface.
+``` markdown
+![Virtual Environment](docs/images/virtual-environment.png)
+![3D Avatars](docs/images/avatars.png)
+![Virtual Whiteboard](docs/images/whiteboard.png)
+![AI Chatbot](docs/images/ai-chatbot.png)
+```
 
-### Real-Time Multiplayer
-
-Photon PUN provides the multiplayer layer required for participants to
-share and interact within the same virtual space.
-
-### Virtual Whiteboard
-
-A shared whiteboard provides an interactive surface for teaching,
-explaining concepts, and collaborative discussion.
-
-### AI Chatbot
-
-A Gemini-powered chatbot adds AI assistance to the environment and
-provides a conversational interaction layer.
-
-### Accessible Interaction
-
-The experience is designed to work through a regular screen, making the
-concept usable without requiring dedicated VR hardware.
+A README with real screenshots and a short demo video gives visitors an
+immediate understanding of the project before they inspect the Unity
+source.
 
 ------------------------------------------------------------------------
 
 ## Technology Stack
 
-  Layer                         Technology
-  ----------------------------- ---------------------------------------------------
-  Game Engine                   Unity 3D
-  Programming                   C#
-  Multiplayer                   Photon PUN
-  AI Chatbot                    Google Gemini API
-  Backend / Cloud Integration   Azure + PlayFab
-  3D Experience                 Unity-based virtual environment
-  Collaboration                 Virtual whiteboard + real-time avatar interaction
+  -----------------------------------------------------------------------
+  Technology                          Role
+  ----------------------------------- -----------------------------------
+  **Unity 3D**                        3D environment, scenes, interaction
+                                      and application development
 
-The technology choices are based on the project architecture presented
-in the project documentation. fileciteturn0file0L50-L54
+  **C#**                              Application and gameplay logic
+
+  **Photon PUN**                      Real-time multiplayer networking
+
+  **Google Gemini API**               AI chatbot / conversational
+                                      assistance
+
+  **PlayFab**                         Backend and cloud integration
+
+  **Azure**                           Cloud-service integration
+  -----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
-## High-Level Architecture
+## Architecture
 
 ``` text
-                         ┌──────────────────────┐
-                         │       User           │
-                         │   Regular Screen     │
-                         └──────────┬───────────┘
+                         ┌─────────────────────┐
+                         │        User         │
+                         │   Desktop / Screen  │
+                         └──────────┬──────────┘
                                     │
                                     ▼
-                         ┌──────────────────────┐
-                         │      Unity 3D        │
-                         │   Virtual Meeting    │
-                         │      Environment     │
-                         └───────┬──────┬───────┘
-                                 │      │
-                 ┌───────────────┘      └───────────────┐
-                 ▼                                      ▼
-        ┌─────────────────┐                    ┌─────────────────┐
-        │   Photon PUN    │                    │  Interactive    │
-        │ Real-Time Sync  │                    │    Features     │
-        └────────┬────────┘                    │ Avatar/Whiteboard│
-                 │                             └────────┬────────┘
-                 ▼                                      │
-        ┌─────────────────┐                             │
-        │ Multiplayer     │                             │
-        │ Participants    │                             │
-        └─────────────────┘                             │
-                                                        ▼
-                                              ┌─────────────────┐
-                                              │  Gemini AI      │
-                                              │    Chatbot      │
-                                              └─────────────────┘
+                         ┌─────────────────────┐
+                         │      Unity 3D       │
+                         │ Virtual Environment │
+                         └─────────┬───────────┘
+                                   │
+              ┌────────────────────┼────────────────────┐
+              │                    │                    │
+              ▼                    ▼                    ▼
+      ┌───────────────┐    ┌───────────────┐    ┌───────────────┐
+      │  3D Avatars   │    │ Virtual Board │    │  AI Chatbot   │
+      │  Interaction  │    │ Collaboration │    │ Gemini API    │
+      └───────┬───────┘    └───────────────┘    └───────┬───────┘
+              │                                          │
+              ▼                                          │
+      ┌───────────────┐                                  │
+      │  Photon PUN   │                                  │
+      │ Real-Time Net │                                  │
+      └───────┬───────┘                                  │
+              │                                          │
+              ▼                                          ▼
+      ┌───────────────┐                         ┌────────────────┐
+      │ Other Users   │                         │ AI Response    │
+      │ / Participants│                         │   to Client    │
+      └───────────────┘                         └────────────────┘
 
-                         Azure / PlayFab
-                    Backend & cloud integration
+                         ┌─────────────────────┐
+                         │  PlayFab / Azure    │
+                         │ Backend Integration │
+                         └─────────────────────┘
 ```
 
 ------------------------------------------------------------------------
 
-## User Experience
-
-A typical interaction flow is:
+## User Flow
 
 ``` text
 Launch Application
-       │
-       ▼
+        │
+        ▼
 Enter Virtual Environment
-       │
-       ▼
-Join / Interact with Participants
-       │
-       ├──────────────► Move and interact as an avatar
-       │
-       ├──────────────► Collaborate using the whiteboard
-       │
-       └──────────────► Interact with the AI chatbot
-       │
-       ▼
-Collaborative Virtual Meeting / Learning Session
+        │
+        ▼
+Join / Connect to Session
+        │
+        ▼
+      ┌─┴───────────────────────────┐
+      │                             │
+      ▼                             ▼
+Interact with Avatars        Use Virtual Whiteboard
+      │                             │
+      └──────────────┬──────────────┘
+                     │
+                     ▼
+              Use AI Chatbot
+                     │
+                     ▼
+        Collaborative Meeting /
+           Learning Session
 ```
-
-------------------------------------------------------------------------
-
-## What the Project Demonstrates
-
-Aura Expansion brings together several areas of interactive application
-development in a single Unity project:
-
--   Real-time multiplayer networking
--   3D avatar-based interaction
--   Interactive virtual environments
--   AI API integration
--   Collaborative learning tools
--   Cloud/backend integration
--   User interaction design for remote collaboration
-
-The project documentation identifies the intended benefits as a more
-engaging learning environment, improved collaboration, interactive
-teaching tools, and scalability across educational and training
-contexts. fileciteturn0file0L59-L64
-
-------------------------------------------------------------------------
-
-## Target Use Cases
-
-### Virtual Classrooms
-
-Teachers and students can meet inside a shared environment and use the
-whiteboard for explanations and collaborative activities.
-
-### Remote Team Meetings
-
-Teams can use a shared virtual environment to make remote meetings more
-interactive.
-
-### Training & Workshops
-
-The platform can be adapted for organizations that need an interactive
-space for remote training sessions.
-
-### Collaborative Learning
-
-The combination of avatars, shared interaction, and AI assistance
-provides a foundation for more interactive online learning experiences.
-
-------------------------------------------------------------------------
-
-## Project Structure
-
-The repository follows a Unity project structure. The main development
-content is organized around Unity's standard project directories:
-
-``` text
-Aura-Expansion/
-├── Assets/
-│   └── Game assets, scenes, scripts and project content
-├── Packages/
-│   └── Unity package configuration
-├── ProjectSettings/
-│   └── Unity project configuration
-├── Windows/
-│   └── Windows-related project/build content
-└── README.md
-```
-
-Generated Unity files such as the local `Library` cache are
-environment-dependent and may not be required to open or develop the
-project from a clean clone.
 
 ------------------------------------------------------------------------
 
@@ -237,16 +244,16 @@ project from a clean clone.
 
 ### Prerequisites
 
-Install:
+Before opening the project, install:
 
--   Unity with a version compatible with the project's `ProjectSettings`
+-   [Unity Hub](https://unity.com/download)
+-   A Unity Editor version compatible with the project's
+    `ProjectSettings/ProjectVersion.txt`
 -   Git
--   A working internet connection for multiplayer and API-backed
-    functionality
+-   A stable internet connection for networked and API-backed features
 
-The project uses Photon PUN for multiplayer, Gemini for the chatbot, and
-PlayFab/Azure integration as documented in the project materials.
-fileciteturn0file0L50-L54
+The project uses Unity, C#, Photon PUN, Gemini API, and PlayFab/Azure
+services.
 
 ### Clone the Repository
 
@@ -255,111 +262,179 @@ git clone https://github.com/sathwikchava/Aura-Expansion.git
 cd Aura-Expansion
 ```
 
-### Open in Unity
+### Open the Project
 
 1.  Open **Unity Hub**.
-2.  Select **Add / Open Project**.
+2.  Select **Add project from disk**.
 3.  Select the cloned `Aura-Expansion` directory.
-4.  Allow Unity to import and generate its local project cache.
-5.  Open the project's main scene from the `Assets` directory.
-6.  Configure any required Photon, Gemini, PlayFab, or Azure credentials
-    before running networked/API-dependent features.
+4.  Open the project using the Unity version specified by the project
+    settings.
+5.  Allow Unity to import packages and generate its local cache.
+6.  Open the relevant scene from the `Assets` directory.
+7.  Configure the external services before testing networked or
+    AI-dependent features.
 
-> API keys and service credentials should be supplied through your local
-> configuration. Do not commit secrets to the repository.
+> Unity may take some time to import the project the first time it is
+> opened.
 
 ------------------------------------------------------------------------
 
-## Configuration
+## External Service Configuration
 
-The project integrates external services, so a local setup may require
-credentials for:
+Aura Expansion depends on external services for parts of its
+functionality.
 
--   Photon PUN
--   Google Gemini API
--   PlayFab
--   Azure services used by the project
+Depending on the feature being tested, configure:
 
-Keep credentials outside the repository whenever possible.
+-   **Photon PUN** for multiplayer networking
+-   **Google Gemini API** for the AI chatbot
+-   **PlayFab** for backend functionality
+-   **Azure** services used by the project
 
-For example:
+### API Keys
+
+Never commit real API keys or credentials to GitHub.
+
+Use a local configuration mechanism appropriate for your Unity setup and
+keep secret values outside version control.
+
+Example:
 
 ``` text
-API_KEY=your_key_here
+GEMINI_API_KEY=your_api_key_here
+PHOTON_APP_ID=your_app_id_here
 ```
 
-Do not replace the example with a real secret inside `README.md`, source
-code, or committed configuration files.
+The values above are placeholders only.
 
 ------------------------------------------------------------------------
 
-## Future Direction
+## Project Structure
 
-The project documentation identifies several possible extensions:
+A simplified Unity project layout:
+
+``` text
+Aura-Expansion/
+│
+├── Assets/
+│   ├── Scenes/
+│   ├── Scripts/
+│   ├── Prefabs/
+│   ├── Materials/
+│   └── ...
+│
+├── Packages/
+│   └── packages-lock.json
+│
+├── ProjectSettings/
+│   ├── ProjectSettings.asset
+│   └── ProjectVersion.txt
+│
+├── Windows/
+│
+├── README.md
+└── LICENSE
+```
+
+The exact contents of `Assets/` depend on the current project version.
+
+### About Unity's `Library` Folder
+
+Unity generates the `Library/` directory locally as an imported asset
+and package cache. It can be very large and contains editor-generated
+data.
+
+For normal Unity source repositories, the project should generally be
+reproducible from the tracked project files and package configuration
+without relying on a machine-specific `Library/` cache.
+
+------------------------------------------------------------------------
+
+## Use Cases
+
+### Virtual Classrooms
+
+Teachers and students can interact in a shared 3D environment while
+using collaborative teaching tools.
+
+### Remote Meetings
+
+Teams can use avatars and a shared virtual space to make remote meetings
+more interactive.
+
+### Workshops and Training
+
+The environment can be adapted for remote training sessions and
+demonstrations.
+
+### Collaborative Learning
+
+The combination of a shared environment, interactive tools, and AI
+assistance provides a foundation for collaborative digital learning.
+
+------------------------------------------------------------------------
+
+## Project Goals
+
+Aura Expansion focuses on four core areas:
+
+  Goal                Implementation
+  ------------------- --------------------------------------------
+  **Presence**        3D avatars and shared virtual environments
+  **Interaction**     Real-time multiplayer communication
+  **Collaboration**   Virtual whiteboard and shared space
+  **AI Assistance**   Gemini-powered chatbot
+
+------------------------------------------------------------------------
+
+## Future Enhancements
+
+The project can be extended in several directions:
 
 -   More realistic and customizable avatars
 -   Improved avatar animations and expressions
 -   AI-powered tutors
--   Multiple virtual classroom environments
+-   Additional virtual classroom environments
 -   Mobile support
 -   VR support
+-   Additional collaborative tools
+-   Expanded cloud/backend capabilities
 
-These directions are intended to extend the platform toward broader
-virtual learning and collaboration scenarios.
-fileciteturn0file0L76-L81
+These extensions can build on the existing Unity, networking, AI, and
+cloud architecture.
 
 ------------------------------------------------------------------------
 
-## Project Vision
+## Development Notes
 
-Aura Expansion is built around a simple idea:
+When contributing to the project:
 
-> **Make remote interaction feel more like sharing the same space.**
+1.  Create a feature branch.
+2.  Make focused changes.
+3.  Test the Unity project locally.
+4.  Avoid committing generated files and secrets.
+5.  Write a clear commit message.
+6.  Open a pull request with a description of the change.
 
-By combining a 3D environment with real-time multiplayer interaction,
-collaborative tools, and AI assistance, the project provides a
-foundation for virtual meetings and learning experiences that go beyond
-a conventional video-call interface.
+Example:
+
+``` bash
+git checkout -b feature/new-feature
+git add .
+git commit -m "Add new feature"
+git push origin feature/new-feature
+```
 
 ------------------------------------------------------------------------
 
 ## Team
 
-Developed by:
+### Hack Street Boys
 
 -   **A. Ganesh**
 -   **M. V. Mourya Goud**
 -   **C. Johith**
 -   **Ch. Sathwik**
-
-The team members are listed in the project presentation.
-fileciteturn0file0L103-L108
-
-------------------------------------------------------------------------
-
-## Contributing
-
-Contributions, ideas, and improvements are welcome.
-
-A typical contribution workflow:
-
-``` bash
-git checkout -b feature/your-feature
-git add .
-git commit -m "Add your feature"
-git push origin feature/your-feature
-```
-
-Then open a pull request describing the change.
-
-------------------------------------------------------------------------
-
-## License
-
-No license is currently specified for this repository.
-
-If you intend to allow reuse, modification, or distribution of the
-project, add an appropriate `LICENSE` file to the repository.
 
 ------------------------------------------------------------------------
 
@@ -367,11 +442,28 @@ project, add an appropriate `LICENSE` file to the repository.
 
 Built with:
 
--   Unity
--   Photon PUN
--   Google Gemini API
--   PlayFab
--   Azure
+-   [Unity](https://unity.com/)
+-   [Photon](https://www.photonengine.com/)
+-   [Google Gemini API](https://ai.google.dev/)
+-   [PlayFab](https://playfab.com/)
+-   [Microsoft Azure](https://azure.microsoft.com/)
 
-The project's documented technology stack and feature set are based on
-the supplied project presentation. fileciteturn0file0L41-L54
+------------------------------------------------------------------------
+
+## License
+
+This project is licensed under the **MIT License**.
+
+See [`LICENSE`](LICENSE) for the complete license text.
+
+------------------------------------------------------------------------
+
+```{=html}
+<p align="center">
+```
+`<strong>`{=html}Aura Expansion`</strong>`{=html}`<br>`{=html}
+`<em>`{=html}Virtual spaces for more connected
+collaboration.`</em>`{=html}
+```{=html}
+</p>
+```

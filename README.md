@@ -170,15 +170,12 @@ Then open a pull request describing your change.
 
 ## 👥 Team — Hack Street Boys
 
-| Name | GitHub |
-|---|---|
-| **Ch. Sathwik** | [@sathwikchava](https://github.com/sathwikchava) |
+| Name |
+|---|
+| **Ch. Sathwik** 
 | **A. Ganesh**
-| **M. V. Mourya Goud** | — |
-| **C. Johith** | — |
-
-🔗 Related project by the same team: **[VR-Classroom](https://github.com/AnnavarapuGanesh/VR-CLASSROOM)**
-
+| **M. V. Mourya Goud** |
+| **C. Johith** |
 ## 📄 License
 
 This project is licensed under the **MIT License** — feel free to fork, modify, and build on it for learning or development purposes.
